@@ -12,3 +12,5 @@ def list():
             #when the folder isn't found, we ask again
             except FileNotFoundError:
                 print("directory not found")
+                
+                

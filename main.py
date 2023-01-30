@@ -1,6 +1,6 @@
 from pyfiles.list import list
 from pyfiles.edit import edit
-from pyfiles.nombre_lettres import nombre_lettres
+from pyfiles.occurance import occ
 help = '''commands:
         - test: executes a test
         - list: choose a folder and see whats inside of it
@@ -30,7 +30,7 @@ while running:
     elif command == "list":
         print(list())
     elif command == "occ":
-        nombre_lettres()
+        occ()
     elif command == "edit":
         edit()
     elif command == "help":
